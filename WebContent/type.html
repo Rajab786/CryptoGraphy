@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+fieldset{
+background-color:  #123456;
+margin-top:10%;
+width:45%;
+}
+table{
+margin-top:10%;
+width:49%;
+
+}
+.body{
+background-image:url("fm 1 bg.jpg");
+background-size: 1366px 768px;
+background-repeat: no-repeat;
+margin-left:35%;
+}
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-bottom-width: 3px;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  border-radius:20px;
+  margin:5px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+</style>
+</head>
+<body class ="body">
+<table border="5" width="400" height="100">
+<tr>
+<td bgcolor="#123456">
+<font color="white" face="Chiller" size="20">
+<center>
+Choose what to do!
+</center>
+</font>
+</td>
+</tr>
+</table>
+
+<fieldset>
+<a href="acknowledgement.html">
+     <a href="AES.jsp"><button class="accordion">Start Encryption</button></a>
+     <a href="aes2.jsp"><button class="accordion">Start Decryption</button></a>
+
+</a>
+<a href = "enc.html">
+<button class="accordion">Go back </button></a>
+
+
+
+</fieldset>
+</body>
+</html>
